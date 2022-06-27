@@ -1,0 +1,13 @@
+theme = "onedark"
+
+
+[editor]
+idle-timeout = 0
+gutters = ["line-numbers"]
+
+[keys.normal]
+"tab" = "rotate_view"
+"ret" = ["open_below", "normal_mode"]
+
+[editor.lsp]
+display-messages = true
