@@ -5,10 +5,12 @@ alias lsd = (ls | where type == dir)
 alias dsk = cd C:\Users\NahojPh\Desktop
 alias lsf = (ls | where type == file)
 alias nuconf = hx C:\Users\NahojPh\AppData\Roaming\nushell\config.nu
+alias cat = open --raw
 alias ci = cargo init
 alias cr = cargo run
 alias cb = cargo build
 alias ca = cargo add
+
 
 module completions {
   # Custom completions for external commands (those outside of Nushell)
