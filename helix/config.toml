@@ -1,7 +1,11 @@
-theme = "onedark"
+theme = "gruvbox"
 
 
 [editor]
+auto-format = false
+line-number = "relative"
+completion-trigger-len = 1
+mouse = false
 idle-timeout = 0
 gutters = ["line-numbers"]
 
@@ -11,3 +15,7 @@ gutters = ["line-numbers"]
 
 [editor.lsp]
 display-messages = true
+auto-signature-help = false
+
+[editor.indent-guides]
+render = false
