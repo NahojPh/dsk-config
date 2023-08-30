@@ -3,7 +3,7 @@ theme = "gruvbox"
 
 [editor]
 auto-format = false
-line-number = "relative"
+line-number = "absolute"
 completion-trigger-len = 1
 mouse = false
 idle-timeout = 0
@@ -12,6 +12,10 @@ gutters = ["line-numbers"]
 [keys.normal]
 "tab" = "rotate_view"
 "ret" = ["open_below", "normal_mode"]
+"S-ret" = ["open_above", "normal_mode"]
+"A-y" = "switch_to_uppercase"
+"A-h" = "switch_to_lowercase"
+# "A-a" = [""]
 
 [editor.lsp]
 display-messages = true
